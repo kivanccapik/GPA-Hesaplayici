@@ -1,0 +1,130 @@
+.bg {
+  position: fixed;
+  inset: 0; /* top right bottom leftin kısa hali ekranı ful kaplar */
+  z-index: -1; /* katman sırasını belirler */
+  background:
+    linear-gradient(rgba(0, 4, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url(atlas_dış.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.genel-kart {
+  border: 5px solid rgba(0, 0, 0, 0.178);
+  border-radius: 10px;
+  padding: 4%;
+  background-color: rgba(33, 76, 194, 0.233);
+  backdrop-filter: blur(15px);
+}
+
+.genel-kart h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.ders-adi {
+  color: white;
+  font-weight: bold;
+}
+
+.ders-adi input {
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(15px);
+}
+
+.ders-adi input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.kredi-sayisi {
+  color: white;
+  font-weight: bold;
+}
+
+.kredi-sayisi input {
+  border-radius: 10px;
+  border-color: white;
+}
+
+.harf-notu {
+  color: white;
+  font-weight: bold;
+}
+
+.harf-notu select {
+  border-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.listeye-ekle button {
+  background-color: #4263eb;
+  color: aliceblue;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px !important ;
+  font-weight: bold;
+}
+
+.listeye-ekle button:hover {
+  background-color: #3b5bdb;
+  color: aliceblue;
+}
+
+.hesapla button {
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #48c774;
+  border-radius: 10px !important;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.hesapla button:hover {
+  background-color: #3ba760;
+}
+
+.temizle button {
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #ff6b6b;
+  border-radius: 10px !important;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.temizle button:hover {
+  background-color: #d45353;
+}
+
+.tablo {
+  color: white;
+}
+
+.tablo tr {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.tablo button {
+  border-radius: 15px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Inter";
+}
+
+.sonuc-ekrani {
+  text-align: center;
+  font-weight: bold;
+  background: rgba(30, 60, 180, 0.35);
+  border: 2px solid rgba(100, 149, 255, 0.6);
+  color: #ffffff;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  font-size: 32px;
+}
